@@ -11,8 +11,8 @@ export default function Home() {
           <li>pietro.rimondini@ae-re.com</li>
           <li>nicholas.vlantes@ae-re.com</li>
           <li>sakshi.agarwal2@ae-re.com</li>
-        </ul><br/>
-        <p>Please provide your name and apartment number. Don't worry! You will have a chance to edit the email before sending!</p><br/>
+        </ul>
+        <p>Please provide your name and apartment number. Don&apos;t worry! You will have a chance to edit the email before sending!</p>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
       <form class="w-full max-w-sm">
         <div class="md:flex md:items-center mb-6">
@@ -51,7 +51,6 @@ export default function Home() {
         <p>On behalf of myself and all the other tenants in the building, I demand a response to this email and an acknowledgement of this problem along with a reasonable estimate of when it will be resolved.</p>
         <p>If this matter continues to go unaddressed, I will be completely within my right as a tenant to...</p>
         <p>I look forward to your timely response.</p>
-        <br/>        
         <p>Thank you,</p>
         <p>Tenant Name, Apt #</p>
 
