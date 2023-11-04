@@ -20,7 +20,7 @@ export default function Home() {
   I pay good money every month to live here, and the lack of communication and action are completely unacceptable.%0D%0A
   On behalf of myself and all the other tenants in the building, I demand a response to this email and an acknowledgement of this problem along with a reasonable estimate of when it will be resolved.%0D%0A
   If this matter continues to go unaddressed, I will be completely within my right as a tenant to...%0D%0A
-  I look forward to your timely response.
+  I look forward to your timely response.%0D%0A
   Thank you,%0D%0A
   ${input.name}, Apartment #${input.apartmentNumber}
   `
