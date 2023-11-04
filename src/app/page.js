@@ -24,7 +24,7 @@ export default function Home() {
   Thank you,%0D%0A
   ${input.name}, Apartment #${input.apartmentNumber}
   `
-  const exampleMailTo = `mailto:pietro.rimondini@ae-re.com,nicholas.vlantes@ae-re.com,sakshi.agarwal2@ae-re.com?body=${message}`
+  const exampleMailTo = `mailto:pietro.rimondini@ae-re.com,nicholas.vlantes@ae-re.com,sakshi.agarwal2@ae-re.com?body=${message}&subject=RE%3A%20483%20Ocean%20Parkway%20Door%20Buzzer`
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-16">
