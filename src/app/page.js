@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 export default function Home() {
 
   const router = useRouter()
-  const exampleMailTo = "mailto:pietro.rimondini@ae-re.com,nicholas.vlantes@ae-re.com,sakshi.agarwal2@ae-re.com?subject=RE%3A%20483%20Ocean%20Parkway%20Door%20Buzzer"
+  const exampleMailTo = "mailto:pietro.rimondini@ae-re.com,nicholas.vlantes@ae-re.com,sakshi.agarwal2@ae-re.com"
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-16">
