@@ -1,6 +1,11 @@
-import Image from 'next/image'
+'use client';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+
+  const router = useRouter()
+  const exampleMailTo = "mailto:pietro.rimondini@ae-re.com,nicholas.vlantes@ae-re.com,sakshi.agarwal2@ae-re.com?subject=RE%3A%20483%20Ocean%20Parkway%20Door%20Buzzer"
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-16">
         <h1 class="text-3xl font-bold text-center">
@@ -49,7 +54,7 @@ export default function Home() {
         <div class="md:flex md:items-center ">
           <div class="md:w-1/3"></div>
           <div class="md:w-2/3 p-2">
-            <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+            <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button" onClick={() => router.push(exampleMailTo)}>
               Send
             </button>
           </div>
